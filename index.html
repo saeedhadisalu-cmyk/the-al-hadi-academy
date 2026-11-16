@@ -2,347 +2,340 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>THE AL HADI ACADEMY | 9th & 10th</title>
+<title>THE AL HADI ACADEMY</title>
 
-  <meta name="description" content="THE AL HADI ACADEMY - Quality education for Class 9th and 10th students in Khairpur Mirs.">
+<meta name="description" content="THE AL HADI ACADEMY - Quality Education for Class 9th and 10th">
 
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: Arial, sans-serif;
-    }
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
 
-    html {
-      scroll-behavior: smooth;
-    }
+html {
+  scroll-behavior: smooth;
+}
 
-    body {
-      background: #f4f7fc;
-      color: #17243b;
-    }
+body {
+  background: #f4f7fc;
+  color: #17243b;
+}
 
-    header {
-      background: #09264b;
-      color: white;
-      padding: 18px 7%;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      gap: 15px;
-    }
+header {
+  background: #09264b;
+  color: white;
+  padding: 20px 7%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
 
-    .logo {
-      font-size: 23px;
-      font-weight: bold;
-      color: #f5c542;
-    }
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #f5c542;
+}
 
-    nav a {
-      color: white;
-      text-decoration: none;
-      margin: 0 9px;
-      font-size: 14px;
-    }
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
 
-    nav a:hover {
-      color: #f5c542;
-    }
+nav a:hover {
+  color: #f5c542;
+}
 
-    .hero {
-      min-height: 480px;
-      background: linear-gradient(120deg, #09264b, #1555a0);
-      color: white;
-      display: flex;
-      align-items: center;
-      padding: 65px 8%;
-    }
+.hero {
+  min-height: 450px;
+  background: linear-gradient(120deg,#09264b,#1764b0);
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 60px 8%;
+}
 
-    .hero-content {
-      max-width: 700px;
-    }
+.hero-content {
+  max-width: 700px;
+}
 
-    .hero h1 {
-      font-size: 48px;
-      margin-bottom: 18px;
-      line-height: 1.15;
-    }
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
 
-    .hero h1 span {
-      color: #f5c542;
-    }
+.hero h1 span {
+  color: #f5c542;
+}
 
-    .hero p {
-      font-size: 18px;
-      line-height: 1.7;
-      margin-bottom: 25px;
-    }
+.hero p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 25px;
+}
 
-    .admission {
-      display: inline-block;
-      background: #f5c542;
-      color: #09264b;
-      padding: 12px 25px;
-      border-radius: 6px;
-      font-weight: bold;
-      text-decoration: none;
-    }
+.btn {
+  display: inline-block;
+  background: #f5c542;
+  color: #09264b;
+  padding: 13px 25px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+}
 
-    section {
-      padding: 65px 8%;
-    }
+section {
+  padding: 65px 8%;
+}
 
-    .section-title {
-      text-align: center;
-      font-size: 32px;
-      color: #09264b;
-      margin-bottom: 35px;
-    }
+.title {
+  text-align: center;
+  color: #09264b;
+  font-size: 32px;
+  margin-bottom: 35px;
+}
 
-    .about {
-      text-align: center;
-      max-width: 850px;
-      margin: auto;
-      line-height: 1.8;
-      font-size: 17px;
-    }
+.about {
+  max-width: 850px;
+  margin: auto;
+  text-align: center;
+  line-height: 1.9;
+  font-size: 17px;
+}
 
-    .cards {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 22px;
-    }
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+  gap: 22px;
+}
 
-    .card {
-      background: white;
-      padding: 30px 20px;
-      text-align: center;
-      border-radius: 12px;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.07);
-      border-bottom: 4px solid #f5c542;
-    }
+.card {
+  background: white;
+  padding: 30px 20px;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px #00000010;
+  border-bottom: 4px solid #f5c542;
+}
 
-    .card h3 {
-      color: #1555a0;
-      margin-bottom: 12px;
-      font-size: 21px;
-    }
+.card h3 {
+  color: #1555a0;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
 
-    .card p {
-      line-height: 1.6;
-    }
+.card p {
+  line-height: 1.7;
+}
 
-    .admission-section {
-      background: #e8f0fb;
-      text-align: center;
-    }
+.admission {
+  background: #e8f0fb;
+  text-align: center;
+}
 
-    .admission-section p {
-      line-height: 1.8;
-      margin-bottom: 22px;
-    }
+.admission p {
+  margin-bottom: 25px;
+  line-height: 1.8;
+}
 
-    .contact {
-      background: white;
-      text-align: center;
-      line-height: 2.2;
-    }
+.contact {
+  background: white;
+  text-align: center;
+  line-height: 2.2;
+}
 
-    .contact a {
-      color: #1555a0;
-      font-weight: bold;
-      text-decoration: none;
-    }
+.contact a {
+  color: #1555a0;
+  text-decoration: none;
+  font-weight: bold;
+}
 
-    .whatsapp {
-      display: inline-block;
-      background: #168c50;
-      color: white !important;
-      padding: 12px 25px;
-      border-radius: 7px;
-      margin-top: 15px;
-    }
+.whatsapp {
+  display: inline-block;
+  background: #168c50;
+  color: white !important;
+  padding: 12px 25px;
+  border-radius: 7px;
+  margin: 15px;
+}
 
-    footer {
-      background: #09264b;
-      color: white;
-      text-align: center;
-      padding: 22px;
-      line-height: 1.8;
-    }
+footer {
+  background: #09264b;
+  color: white;
+  text-align: center;
+  padding: 25px;
+  line-height: 1.8;
+}
 
-    @media(max-width: 600px) {
-      header {
-        justify-content: center;
-        text-align: center;
-      }
+@media(max-width:600px) {
+  header {
+    justify-content: center;
+    text-align: center;
+  }
 
-      nav {
-        line-height: 2.5;
-      }
+  nav {
+    line-height: 2.5;
+  }
 
-      .hero {
-        min-height: 400px;
-        text-align: center;
-      }
+  .hero {
+    text-align: center;
+  }
 
-      .hero h1 {
-        font-size: 35px;
-      }
+  .hero h1 {
+    font-size: 34px;
+  }
 
-      .hero p {
-        font-size: 16px;
-      }
-
-      .section-title {
-        font-size: 27px;
-      }
-    }
-  </style>
+  .hero p {
+    font-size: 16px;
+  }
+}
+</style>
 </head>
 
 <body>
 
-  <header>
-    <div class="logo">THE AL HADI ACADEMY</div>
+<header>
+  <div class="logo">THE AL HADI ACADEMY</div>
 
-    <nav>
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#classes">Classes</a>
-      <a href="#subjects">Subjects</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#classes">Classes</a>
+    <a href="#subjects">Subjects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
 
-  <section class="hero" id="home">
-    <div class="hero-content">
-      <h1>Welcome to <span>THE AL HADI ACADEMY</span></h1>
+<section class="hero" id="home">
+  <div class="hero-content">
 
-      <p>
-        Building Knowledge, Developing Skills and
-        Creating a Better Future.
-        Special Education for Class 9th and 10th.
-      </p>
-
-      <a class="admission"
-         href="https://wa.me/923020087388">
-        Apply for Admission
-      </a>
-    </div>
-  </section>
-
-  <section id="about">
-    <h2 class="section-title">About Our Academy</h2>
-
-    <div class="about">
-      <p>
-        Welcome to THE AL HADI ACADEMY.
-        Our academy provides educational support
-        for Class 9th and Class 10th students.
-        Our aim is to help students understand
-        concepts, improve their knowledge and
-        prepare for board examinations.
-      </p>
-    </div>
-  </section>
-
-  <section id="classes">
-    <h2 class="section-title">Our Classes</h2>
-
-    <div class="cards">
-      <div class="card">
-        <h3>Class 9th</h3>
-        <p>Strong concepts and complete subject guidance.</p>
-      </div>
-
-      <div class="card">
-        <h3>Class 10th</h3>
-        <p>Board examination preparation and subject learning.</p>
-      </div>
-    </div>
-  </section>
-
-  <section id="subjects">
-    <h2 class="section-title">Our Subjects</h2>
-
-    <div class="cards">
-      <div class="card">
-        <h3>Physics</h3>
-        <p>Learn science through concepts and examples.</p>
-      </div>
-
-      <div class="card">
-        <h3>Chemistry</h3>
-        <p>Understand chemical concepts and reactions.</p>
-      </div>
-
-      <div class="card">
-        <h3>Mathematics</h3>
-        <p>Improve mathematical skills and problem solving.</p>
-      </div>
-
-      <div class="card">
-        <h3>Biology</h3>
-        <p>Explore living organisms and life sciences.</p>
-      </div>
-
-      <div class="card">
-        <h3>English</h3>
-        <p>Improve grammar, writing and communication.</p>
-      </div>
-    </div>
-  </section>
-
-  <section class="admission-section">
-    <h2 class="section-title">Admissions Open</h2>
+    <h1>Welcome to <span>THE AL HADI ACADEMY</span></h1>
 
     <p>
-      Admissions are open for Class 9th and 10th.
-      Contact us today for admission information.
+      Building Knowledge, Developing Skills and
+      Creating a Better Future.
+      Special Education for Class 9th and 10th.
     </p>
 
-    <a class="admission"
-       href="https://wa.me/923020087388">
-      Contact for Admission
-    </a>
-  </section>
-
-  <section class="contact" id="contact">
-    <h2 class="section-title">Contact Us</h2>
-
-    <p><strong>Academy:</strong> THE AL HADI ACADEMY</p>
-
-    <p><strong>Classes:</strong> 9th & 10th</p>
-
-    <p><strong>Location:</strong>
-      American International School,
-      Bhurgari, Khairpur Mirs, Sindh, Pakistan
-    </p>
-
-    <p><strong>Phone:</strong> 0302-0087388</p>
-
-    <a class="whatsapp"
-       href="https://wa.me/923020087388">
-      WhatsApp Us
+    <a class="btn" href="https://wa.me/923020087388">
+      Apply for Admission
     </a>
 
+  </div>
+</section>
+
+<section id="about">
+  <h2 class="title">About Our Academy</h2>
+
+  <div class="about">
     <p>
-      <a href="https://www.google.com/maps/search/?api=1&query=American+International+School+Bhurgari+Khairpur+Mirs">
-        View Location on Google Maps
-      </a>
+      Welcome to THE AL HADI ACADEMY.
+      We provide quality education for Class 9th
+      and Class 10th students. Our mission is to
+      improve students' knowledge, build strong
+      concepts and prepare them for board examinations.
     </p>
-  </section>
+  </div>
+</section>
 
-  <footer>
-    <p>© 2026 THE AL HADI ACADEMY</p>
-    <p>Education is the key to success.</p>
-  </footer>
+<section id="classes">
+  <h2 class="title">Our Classes</h2>
+
+  <div class="cards">
+
+    <div class="card">
+      <h3>Class 9th</h3>
+      <p>Complete subject guidance and strong concepts.</p>
+    </div>
+
+    <div class="card">
+      <h3>Class 10th</h3>
+      <p>Board examination preparation and learning.</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="subjects">
+  <h2 class="title">Our Subjects</h2>
+
+  <div class="cards">
+
+    <div class="card">
+      <h3>Physics</h3>
+      <p>Learn science with concepts and examples.</p>
+    </div>
+
+    <div class="card">
+      <h3>Chemistry</h3>
+      <p>Understand chemical reactions and concepts.</p>
+    </div>
+
+    <div class="card">
+      <h3>Mathematics</h3>
+      <p>Improve mathematical skills.</p>
+    </div>
+
+    <div class="card">
+      <h3>Biology</h3>
+      <p>Explore living organisms and life sciences.</p>
+    </div>
+
+    <div class="card">
+      <h3>English</h3>
+      <p>Improve grammar and writing skills.</p>
+    </div>
+
+  </div>
+</section>
+
+<section class="admission">
+  <h2 class="title">Admissions Open</h2>
+
+  <p>
+    Admissions are open for Class 9th and 10th.
+    Contact us today for more information.
+  </p>
+
+  <a class="btn" href="https://wa.me/923020087388">
+    Get Admission Information
+  </a>
+</section>
+
+<section class="contact" id="contact">
+  <h2 class="title">Contact Us</h2>
+
+  <p><b>Academy:</b> THE AL HADI ACADEMY</p>
+
+  <p><b>Classes:</b> 9th & 10th</p>
+
+  <p><b>Location:</b> American International School,
+  Bhurgari, Khairpur Mirs, Sindh, Pakistan</p>
+
+  <p><b>Phone:</b> 0302-0087388</p>
+
+  <a class="whatsapp" href="https://wa.me/923020087388">
+    Contact on WhatsApp
+  </a>
+
+  <p>
+    <a href="https://www.google.com/maps/search/?api=1&query=American+International+School+Bhurgari+Khairpur+Mirs">
+      View Location on Google Maps
+    </a>
+  </p>
+</section>
+
+<footer>
+  <p>© 2026 THE AL HADI ACADEMY</p>
+  <p>Education is the Key to Success.</p>
+</footer>
 
 </body>
 </html>
